@@ -1,14 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long int lli;
-lli T;
+lli T,a;
 int main(){
         ios_base::sync_with_stdio(false);
 //    ofstream cout("casoPesados.txt");
 //    ifstream cin;cin.open("Inputs.txt");
     while(cin>>T){
-        long double X,Y,n;// termino 0  termino 1 y termino n a calcular 
-        //bases 
+        long double X,Y,n;// termino 0  termino 1 y termino n a calcular
+        //bases
         long double lambda1 = (1+sqrt(5))/2.0;
         long double lambda2 = (1-sqrt(5))/2.0;
         while(cin>>X>>Y>>n){
