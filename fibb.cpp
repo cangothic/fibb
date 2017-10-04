@@ -17,7 +17,7 @@ int main(){
             long double ans = A*pow(lambda1,n) + B*pow(lambda2,n);
             unsigned long long int res=ans;
             cout<<res<<endl;
-
+            //prueba para commit
         }
     }
     //    cout.close();
